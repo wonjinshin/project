@@ -10,6 +10,4 @@ dist: trusty
 #  - cd build
 #  - cmake --version
 #  - cmake -DCMAKE_VERBOSE_MAKEFILE=ON ..
-script: #make && ./diff_match_patch_test_string && ./diff_match_patch_test_wstring
-g++ ./main.cpp
-##
+script: g++ ./main.cpp
